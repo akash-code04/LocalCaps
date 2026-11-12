@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Temporary files
+temp/
+tmp/
+uploads/
+outputs/
+*.tmp
+
+# Media files
+*.mp4
+*.mp3
+*.wav
+*.webm
+
+# CUDA dependencies
+*.dll
+
+# IDE
+.vscode/

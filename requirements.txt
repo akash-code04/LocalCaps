@@ -1,0 +1,7 @@
+# PyAV 19 removed metadata_errors from av.open(), while faster-whisper 1.2.1
+# still passes it. Keep PyAV on the compatible 17.x line until upstream release.
+Flask>=3.0,<4
+faster-whisper==1.2.1
+av==17.1.0
+ctranslate2>=4.4,<5
+huggingface-hub>=0.23,<2
